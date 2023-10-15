@@ -22,7 +22,7 @@ const FormField = ({
           onChange={handleChange}
           placeholder={placeholder}
           rows={10}
-          className="py-[15px] px-3 outline-none border-1 border-[#3a3a43] bg-transparent font-epilogue text-white text-base placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
+          className="py-[15px] px-3 outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-base placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
         />
       ) : (
         <input
@@ -32,7 +32,7 @@ const FormField = ({
           type={inputType}
           placeholder={placeholder}
           step="0.1"
-          className="py-[15px] px-3 outline-none border-1 border-[#3a3a43] bg-transparent font-epilogue text-white text-base placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
+          className="py-[15px] px-3 outline-none border-solid border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-base placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
         />
       )}
     </label>
